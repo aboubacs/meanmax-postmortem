@@ -1,4 +1,4 @@
-# meanmax-postmortem
+# Meanmax-postmortem
 
 Woooooo ! 5th ! :D But it does feel like a win to me ! 
 
