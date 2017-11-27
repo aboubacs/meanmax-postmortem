@@ -82,7 +82,9 @@ It actually made a lot of sense, and it was confirmed when I looked closely on c
 
 ### Evolve the evolution...
 
-So what did I do ? Well, this is getting fancy ! I used different hardcoded patterns + my own algorithm to predict the moves of my opponents each turn. I calculated the expected position of every unit according to each of those possibilities. The turn after, I would calculate the difference between the **actual** position of the units with the expected position for each pattern. Then, I would choose to apply for each unit the pattern that was the least wrong in the past. This means that for example if my algorithm was good at predicting the reaper of opponent n°1, then it would be used to predict it, but if my hardcoded pattern n°2 was good at predicting the doof of opponent n°2, then it would be used. The "errors" at each turn were added so that my code could "change his mind" at one point and switch for example at turn 75 from hardcoded pattern n°1 to genetic evolution for destroyer n°2.
+So what did I do ? Well, this is getting fancy ! I used different hardcoded patterns + my own algorithm to predict the moves of my opponents each turn. I calculated the expected position of every unit according to each of those possibilities. The turn after, I would calculate the difference between the **actual** position of the units with the expected position for each pattern. Then, I would choose to apply for each unit the pattern that was the least wrong in the past. 
+
+This means that for example if my algorithm was good at predicting the reaper of opponent n°1, then it would be used to predict it, but if my hardcoded pattern n°2 was good at predicting the doof of opponent n°2, then it would be used. The "errors" at each turn were added so that my code could "change his mind" at one point and switch for example at turn 75 from hardcoded pattern n°1 to genetic evolution for destroyer n°2.
 
 I felt like it was very weird to mix things like that, but it proved to be not that bad ! And then at 9h53, I changed a parameter from 0.546349 to 0.53333 to try my luck, and went to work. :)
 
