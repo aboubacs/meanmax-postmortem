@@ -6,13 +6,13 @@ Super fun contest, big thanks to Magus, Agade, pb4 and reCurse !
 
 I will describe my strategies and how I approached the game. I believe my AI had what it takes to get even further, but missed out on tuning to be able to approach this super close top 4.
 
-Some background is important to understand why I did things like I did. I'm a totally Codingame-made player, as I knew close to nothing about AI's before landing here. My first contest was Coders Strike Back, and I watched Jeff06 take over the contest with his genetic algorithm. I read his article explaining his algorithm with amazement, and could only dream about being able to do something like that one day. With time, more contests, more reading of post-mortems, I was able to gather information and learn a lot from the people in this community, until I was able to reproduce that in the arena.
+Some background is important to understand why I did things like I did. I'm a totally Codingame-made player, as I knew close to nothing about AI's before landing in here. My first contest was Coders Strike Back, and I watched Jeff06 take over the contest with his genetic algorithm. I read his article explaining his algorithm with amazement, and could only dream about being able to do something like that one day. With time, more contests, more reading of post-mortems, I was able to gather information and learn a lot from the people in this community, until I was able to reproduce that in the arena.
 
 When I saw Mean-Max, it reminded me a lot about Coders Strike Back, and I knew it was time to go back to the roots. 
 
 ## Evolution
 
-I'm not going to go into the details on how an evolutionary algorithm works, because some people wrote about it far better than I would (https://www.codingame.com/blog/genetic-algorithms-coders-strike-back-game/, http://files.magusgeek.com/csb/csb_en.html). I'm just going to describe what characteristics did work for me. Disclaimer : if you find any troubling similarities with features presented in past contest reports... it's because I shamelessly copied from them.
+I'm not going to go into the details on how an evolutionary algorithm works, because some people wrote about it far better than I would [Jeff06 Post mortem](https://www.codingame.com/blog/genetic-algorithms-coders-strike-back-game/) [Magus article](, http://files.magusgeek.com/csb/csb_en.html). I'm just going to describe what characteristics did work for me. Disclaimer : if you find any troubling similarities with features presented in past contest reports... it's because I shamelessly copied from them.
 
 - My genome is made of triplets of floats between 0 and 1. Each triplet encodes an action for one of my units for a turn. So I have 3 triplets of genes for a turn, and I simulated at depth 3.
 
@@ -73,7 +73,7 @@ So what did I do ? Well, this is getting fancy ! I used different hardcoded patt
 
 I felt like it was very weird to mix things like that, but it proved to be not that bad ! And then at 9h53, I changed a parameter from 0.546349 to 0.53333 to try my luck, and went to work. :)
 
-Conclusion
+#Conclusion
 
 I'm super happy and proud of my result ! This is the first time I manage to have a ranking like this in a contest ! This is for sure due to Codingame, and the amazing resources here that I was able to learn from. It was my goal to be able to piece together an AI like that one day, and I feel like for the first time I did it ! It took a lot of time and energy, but in the end, if you have a goal that you deep down inside know feels right, it is right.
 
