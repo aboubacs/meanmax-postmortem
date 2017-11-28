@@ -72,7 +72,7 @@ Every couple of hours, I would take the current best A, B, C, D, E and F from my
 
 ## Predicting the opponent
 
-I thought that what would make the difference would be how accurate one could predict its opponents. Every round, I had an hardcoded move for my opponent. I don't think it was super effective, so I tried another approach a lot of people use in those kind of challenges : use your own algorithm for some time and apply it to your opponents. 
+I thought that what would make the difference would be how accurate one could predict his opponents. Every round, I had an hardcoded move for my opponent. I don't think it was super effective, so I tried another approach a lot of people use in those kind of challenges : use your own algorithm for some time and apply it to your opponents. 
 
 ### Evolutionary approach
 
