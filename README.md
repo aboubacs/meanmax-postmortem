@@ -30,7 +30,7 @@ if (gene3 < 0.1) {
     } else if (gene1 < 0.25) {
     	thrust = 0;
     } else {
-        else thrust = 300 * (gene1 - 0.25) * 2;
+        thrust = 300 * (gene1 - 0.25) * 2;
     }
 	Same idea with angle and gene 2
 } else {
